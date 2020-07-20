@@ -30,3 +30,11 @@ b) A equipe deve elaborar o diagrama ER com as tabelas do Banco de Dados e seus 
 c) A equipe deve enviar o código-fonte do programa (.zip ou .rar), o digrama ER do banco de dados e o script de criação das tabelas e carregamento das tabelas para o e-mail 160100981@prof.uninassau.edu.br, com o assunto “2 Avaliação POO – 2 Etapa – primeiro nome dos membros da equipe”;
 d) Não esquecer de assinar o código-fonte e o ER com o nome e a matrícula dos membros da equipe.
 e) Devem ser utilizados os conceitos de POO e Banco de dados aprendidos nas disciplinas.
+f) o projeto pode ser baixado pelo repositorio: https://github.com/rahkelMCTF/avaliacaopoo.git
+g) Antes de enviar o código-fonte o aluno deve mudar  a conexão do banco de dados para:
+      public ConexaoBanco() {     
+	        url="jdbc:postgresql://localhost:5432/cinema";
+	        usr="usrcinema";
+	        pass="123456";
+	    }
+
