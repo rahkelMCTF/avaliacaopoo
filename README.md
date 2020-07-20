@@ -1,6 +1,6 @@
 # 2º Avaliação POO - Etapa 2
 
-    1. Você e sua equipe foram contratados para implementar o sistema para a reserva de ingressos de um cinema. O analista da sua equipe, em conversa com o cliente, obteve as seguintes informações sobre as necessidades desejadas:
+   Você e sua equipe foram contratados para implementar o sistema para a reserva de ingressos de um cinema. O analista da sua equipe, em conversa com o cliente, obteve as seguintes informações sobre as necessidades desejadas:
 1 - sistema será acessado por dois tipos de usuário: o gestor e o cliente
 2 - o gestor deverá ser previamente cadastrado e poderá: cadastrar novas sessões, visualizar as sessões cadastradas e desabilitar uma sessão ativa e verificar quantos e quais ingressos foram vendidos para uma sessão.
 3 - o cliente poderá: consultar as sessões disponíveis e reservar um ingresso para a sessão desejada, bem como a poltrona que deseja sentar
