@@ -2,11 +2,11 @@
 
 Você e sua equipe foram contratados para implementar o sistema para a reserva de ingressos de um cinema. O analista da sua equipe, em conversa com o cliente, obteve as seguintes informações sobre as necessidades desejadas:
 
-1 - sistema será acessado por dois tipos de usuário: o gestor e o cliente
+**1 - sistema será acessado por dois tipos de usuário: o gestor e o cliente**
 
-2 - o gestor deverá ser previamente cadastrado e poderá: cadastrar novas sessões, visualizar as sessões cadastradas e desabilitar uma sessão ativa e verificar quantos e quais ingressos foram vendidos para uma sessão.
+**2 - o gestor deverá ser previamente cadastrado e poderá: cadastrar novas sessões, visualizar as sessões cadastradas e desabilitar uma sessão ativa e verificar quantos e quais ingressos foram vendidos para uma sessão.**
 
-3 - o cliente poderá: consultar as sessões disponíveis e reservar um ingresso para a sessão desejada, bem como a poltrona que deseja sentar
+**3 - o cliente poderá: consultar as sessões disponíveis e reservar um ingresso para a sessão desejada, bem como a poltrona que deseja sentar**
 
 
 3.1 - Etapas da reserva de ingresso funcionará assim:
@@ -29,10 +29,12 @@ h) O sistema informa se a reserva foi concluída com sucesso ou se houve erro
 
 i) O sistema voltar para o menu principal
 
-4 - o valor do ingresso é R$ 10 
 
 
->Considerando essas informações, você e sua equipe montaram as classes iniciais pertencentes ao sistema, no entanto, tiveram divergências sobre como compor a classe `“Ingresso”` e resolveram iniciar a codificação da área do “gerente” antes de concluir a modelagem da classe `“Ingresso”`. O diagrama montado resultou no seguinte:
+**4 - o valor do ingresso é R$ 10 **
+
+
+Considerando essas informações, você e sua equipe montaram as classes iniciais pertencentes ao sistema, no entanto, tiveram divergências sobre como compor a classe `“Ingresso”` e resolveram iniciar a codificação da área do “gerente” antes de concluir a modelagem da classe `“Ingresso”`. O diagrama montado resultou no seguinte:
 
  **Usuario ->** id, nome, login, senha, matricula, cargo
  **Sessao ->** id, data, hora, filme, sala, flgativo
@@ -41,7 +43,7 @@ i) O sistema voltar para o menu principal
 
 Após avançar no desenvolvimento da área do “Gerente”. Você e sua equipe iniciaram o desenvolvimento da área do `“Cliente”` e considerando a eficiência da sua equipe, seu analista deu o prazo ao cliente para a entrega do sistema até o dia **23/07 as 12h**. 
 
-Observações:
+**Observações:**
 
 a) O sistema deve conectar com o banco de dados PostgreSql e inserir, atualizar e consultar os dados manipulados pela aplicação
 
