@@ -37,7 +37,9 @@ i) O sistema voltar para o menu principal
 Considerando essas informações, você e sua equipe montaram as classes iniciais pertencentes ao sistema, no entanto, tiveram divergências sobre como compor a classe `“Ingresso”` e resolveram iniciar a codificação da área do “gerente” antes de concluir a modelagem da classe `“Ingresso”`. O diagrama montado resultou no seguinte:
 
  **Usuario ->** id, nome, login, senha, matricula, cargo
+ 
  **Sessao ->** id, data, hora, filme, sala, flgativo
+ 
  **Ingresso ->** id, poltrona, valorpago, datacompra, horacompra, idsessao
  
 
